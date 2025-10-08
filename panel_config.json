@@ -1,0 +1,23 @@
+{
+  "board_width_mm": 330,
+  "board_height_mm": 420,
+  "aruco_dict": "DICT_APRILTAG_36h11",
+  "tag_size_mm": 40,
+  "camera_matrix_file": "mono_calibration.yml",
+  "enable_pose_estimation": true,
+  "draw_axes": true,
+  "overlay_depth_mm": 5,
+  "output_video": "annotated_panel.mp4",
+  "video_fps": 30,
+  "video_resolution": [1280, 720],
+  "button_positions_mm": [
+    { "label": "Main Switch", "x": 50, "y": 60 },
+    { "label": "Rotary Control Switch", "x": 120, "y": 60 },
+    { "label": "Rotary Power Switch", "x": 190, "y": 60 },
+    { "label": "Electromagnet", "x": 50, "y": 150 },
+    { "label": "Socket", "x": 120, "y": 150 },
+    { "label": "Slab Holder", "x": 190, "y": 150 },
+    { "label": "Indicators", "x": 120, "y": 250 },
+    { "label": "Row of Switches", "x": 120, "y": 350 }
+  ]
+}
