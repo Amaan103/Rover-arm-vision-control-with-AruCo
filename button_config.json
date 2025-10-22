@@ -1,0 +1,64 @@
+{
+  "board": {
+    "width_mm": 330,
+    "height_mm": 450,
+    "marker_ids": [1, 2, 3, 4, 5, 6, 7, 8],
+    "aruco_dictionary": "DICT_APRILTAG_36h11"
+  },
+
+  "switches": [
+    {
+      "id": "main_switch",
+      "marker_id": 1,
+      "size_mm": [30, 30],
+      "appearance": "main_toggle",
+      "offset_from_marker_mm": [75, 40, 0] 
+    },
+    {
+      "id": "row_of_switches",
+      "marker_id": 8,
+      "size_mm": [250, 20],
+      "appearance": "switch_row",
+      "offset_from_marker_mm": [165, 140, 0] 
+    },
+    {
+      "id": "rotary_control_switch",
+      "marker_id": 2,
+      "size_mm": [50, 50],
+      "appearance": "rotary_control",
+      "offset_from_marker_mm": [150, 260, 0] 
+    },
+    {
+      "id": "rotary_power_switch",
+      "marker_id": 3,
+      "size_mm": [50, 50],
+      "appearance": "rotary_power",
+      "offset_from_marker_mm": [120, 260, 0] 
+    },
+    {
+      "id": "electromagnet",
+      "marker_id": 4,
+      "size_mm": [50, 50],
+      "appearance": "magnet",
+      "offset_from_marker_mm": [250, 260, 0] 
+    },
+    {
+      "id": "socket",
+      "marker_id": 5,
+      "size_mm": [50, 50],
+      "appearance": "socket",
+      "offset_from_marker_mm": [290, 340, 0] 
+    },
+    {
+      "id": "slab_holder",
+      "marker_id": 6,
+      "size_mm": [300, 30],
+      "appearance": "slab_holder",
+      "offset_from_marker_mm": [165, 440, 0] 
+    }
+  ],
+
+  "camera": {
+    "calibration_file": "mono_calibration.yml"
+  }
+}
